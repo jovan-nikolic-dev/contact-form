@@ -87,7 +87,7 @@ input:focus, textarea:focus {
 
 @media(min-width: 700px) {
   .wrapper {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 4fr 6fr;
   }
   .company-info {
     text-align: left;
