@@ -1,0 +1,95 @@
+/* utility borders */
+/* .wrapper,
+.company-info,
+.contact {
+  border: 1px solid #000;
+} */
+
+
+/* utility */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 .5rem;
+}
+
+/* colors & fonts */
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: #d9f1ef;
+}
+
+
+/* layout */
+.brand {
+  text-align: center;
+  color: #3f6461;
+}
+.wrapper {
+  display: grid;
+}
+.company-info {
+  text-align: center;
+  padding-left: 1rem;
+  background-color: #3f6461;
+  color: #d9f1ef;
+}
+.company-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* contact regions */
+.contact {
+  background-color: #bce2df;
+  color: #3f6461;
+}
+.contact p {
+  padding: 0;
+  margin-bottom: 1rem;
+}
+.contact h3 {
+  text-align: center;
+}
+.contact-content {
+  display: grid;
+  justify-content: center;
+}
+.contact-content label {
+  display: block;
+}
+.contact-content input,
+.contact-content textarea {
+  width: 300px;
+  padding: .5rem;
+}
+.contact-content label {
+  margin-bottom: .3rem;
+}
+.contact-content button {
+  width: 100%;
+  padding: .5rem;
+  text-transform: uppercase;
+}
+.contact-content button:hover,
+.contact-content button:focus {
+  outline: 0;
+}
+.contact-content button,
+.contact-content input, 
+.contact-content textarea {
+  background-color: #d9f1ef;
+}
+input:focus, textarea:focus {
+  outline: 0;
+}
+
+
+@media(min-width: 700px) {
+  .wrapper {
+    grid-template-columns: 1fr 2fr;
+  }
+  .company-info {
+    text-align: left;
+  }
+}
